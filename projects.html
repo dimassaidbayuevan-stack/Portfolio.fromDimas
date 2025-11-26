@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects</title>
+  <style>
+    body {margin:0; font-family:Arial,sans-serif; background:#1e1b4b; color:white;}
+    nav {
+      background:#4c1d95; padding:15px;
+      display:flex; justify-content:center; gap:20px;
+    }
+    nav a {color:white; text-decoration:none; font-weight:600;}
+
+    .container {max-width:1000px; margin:auto; padding:40px;}
+
+    .grid {
+      display:grid;
+      grid-template-columns:repeat(auto-fit, minmax(250px,1fr));
+      gap:20px;
+    }
+    .card {
+      background:#312e81;
+      padding:20px;
+      border-radius:15px;
+      box-shadow:0 10px 20px rgba(0,0,0,0.4);
+    }
+  </style>
+</head>
+<body>
+
+<nav>
+  <a href="index.html">Home</a>
+  <a href="about.html">About</a>
+  <a href="projects.html">Projects</a>
+  <a href="services.html">Services</a>
+  <a href="contact.html">Contact</a>
+</nav>
+
+<div class="container">
+  <h1>My Projects</h1>
+
+  <div class="grid">
+    <div class="card">
+      <h3>Portfolio Website</h3>
+      <p>Website personal modern dan responsif.</p>
+    </div>
+
+    <div class="card">
+      <h3>Website UMKM</h3>
+      <p>Company profile untuk bisnis UMKM.</p>
+    </div>
+
+    <div class="card">
+      <h3>UI Design App</h3>
+      <p>Desain aplikasi menggunakan Figma.</p>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
